@@ -1,0 +1,83 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35828.75
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EyeApp", "EyeApp\EyeApp.csproj", "{CBA1A5CC-88C4-420D-B29F-7106904DFF3B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Circle Configuration|ARM = Circle Configuration|ARM
+		Circle Configuration|ARM64 = Circle Configuration|ARM64
+		Circle Configuration|x64 = Circle Configuration|x64
+		Circle Configuration|x86 = Circle Configuration|x86
+		Circle|ARM = Circle|ARM
+		Circle|ARM64 = Circle|ARM64
+		Circle|x64 = Circle|x64
+		Circle|x86 = Circle|x86
+		Debug|ARM = Debug|ARM
+		Debug|ARM64 = Debug|ARM64
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|ARM = Release|ARM
+		Release|ARM64 = Release|ARM64
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CBA1A5CC-88C4-420D-B29F-7106904DFF3B}.Circle Configuration|ARM.ActiveCfg = Circle Configuration|ARM
+		{CBA1A5CC-88C4-420D-B29F-7106904DFF3B}.Circle Configuration|ARM.Build.0 = Circle Configuration|ARM
+		{CBA1A5CC-88C4-420D-B29F-7106904DFF3B}.Circle Configuration|ARM.Deploy.0 = Circle Configuration|ARM
+		{CBA1A5CC-88C4-420D-B29F-7106904DFF3B}.Circle Configuration|ARM64.ActiveCfg = Circle Configuration|ARM64
+		{CBA1A5CC-88C4-420D-B29F-7106904DFF3B}.Circle Configuration|ARM64.Build.0 = Circle Configuration|ARM64
+		{CBA1A5CC-88C4-420D-B29F-7106904DFF3B}.Circle Configuration|ARM64.Deploy.0 = Circle Configuration|ARM64
+		{CBA1A5CC-88C4-420D-B29F-7106904DFF3B}.Circle Configuration|x64.ActiveCfg = Circle Configuration|x64
+		{CBA1A5CC-88C4-420D-B29F-7106904DFF3B}.Circle Configuration|x64.Build.0 = Circle Configuration|x64
+		{CBA1A5CC-88C4-420D-B29F-7106904DFF3B}.Circle Configuration|x64.Deploy.0 = Circle Configuration|x64
+		{CBA1A5CC-88C4-420D-B29F-7106904DFF3B}.Circle Configuration|x86.ActiveCfg = Circle Configuration|x86
+		{CBA1A5CC-88C4-420D-B29F-7106904DFF3B}.Circle Configuration|x86.Build.0 = Circle Configuration|x86
+		{CBA1A5CC-88C4-420D-B29F-7106904DFF3B}.Circle Configuration|x86.Deploy.0 = Circle Configuration|x86
+		{CBA1A5CC-88C4-420D-B29F-7106904DFF3B}.Circle|ARM.ActiveCfg = Circle|ARM
+		{CBA1A5CC-88C4-420D-B29F-7106904DFF3B}.Circle|ARM.Build.0 = Circle|ARM
+		{CBA1A5CC-88C4-420D-B29F-7106904DFF3B}.Circle|ARM.Deploy.0 = Circle|ARM
+		{CBA1A5CC-88C4-420D-B29F-7106904DFF3B}.Circle|ARM64.ActiveCfg = Circle|ARM64
+		{CBA1A5CC-88C4-420D-B29F-7106904DFF3B}.Circle|ARM64.Build.0 = Circle|ARM64
+		{CBA1A5CC-88C4-420D-B29F-7106904DFF3B}.Circle|ARM64.Deploy.0 = Circle|ARM64
+		{CBA1A5CC-88C4-420D-B29F-7106904DFF3B}.Circle|x64.ActiveCfg = Circle|x64
+		{CBA1A5CC-88C4-420D-B29F-7106904DFF3B}.Circle|x64.Build.0 = Circle|x64
+		{CBA1A5CC-88C4-420D-B29F-7106904DFF3B}.Circle|x64.Deploy.0 = Circle|x64
+		{CBA1A5CC-88C4-420D-B29F-7106904DFF3B}.Circle|x86.ActiveCfg = Circle|x86
+		{CBA1A5CC-88C4-420D-B29F-7106904DFF3B}.Circle|x86.Build.0 = Circle|x86
+		{CBA1A5CC-88C4-420D-B29F-7106904DFF3B}.Circle|x86.Deploy.0 = Circle|x86
+		{CBA1A5CC-88C4-420D-B29F-7106904DFF3B}.Debug|ARM.ActiveCfg = Debug|ARM
+		{CBA1A5CC-88C4-420D-B29F-7106904DFF3B}.Debug|ARM.Build.0 = Debug|ARM
+		{CBA1A5CC-88C4-420D-B29F-7106904DFF3B}.Debug|ARM.Deploy.0 = Debug|ARM
+		{CBA1A5CC-88C4-420D-B29F-7106904DFF3B}.Debug|ARM64.ActiveCfg = Debug|ARM64
+		{CBA1A5CC-88C4-420D-B29F-7106904DFF3B}.Debug|ARM64.Build.0 = Debug|ARM64
+		{CBA1A5CC-88C4-420D-B29F-7106904DFF3B}.Debug|ARM64.Deploy.0 = Debug|ARM64
+		{CBA1A5CC-88C4-420D-B29F-7106904DFF3B}.Debug|x64.ActiveCfg = Debug|x64
+		{CBA1A5CC-88C4-420D-B29F-7106904DFF3B}.Debug|x64.Build.0 = Debug|x64
+		{CBA1A5CC-88C4-420D-B29F-7106904DFF3B}.Debug|x64.Deploy.0 = Debug|x64
+		{CBA1A5CC-88C4-420D-B29F-7106904DFF3B}.Debug|x86.ActiveCfg = Debug|x86
+		{CBA1A5CC-88C4-420D-B29F-7106904DFF3B}.Debug|x86.Build.0 = Debug|x86
+		{CBA1A5CC-88C4-420D-B29F-7106904DFF3B}.Debug|x86.Deploy.0 = Debug|x86
+		{CBA1A5CC-88C4-420D-B29F-7106904DFF3B}.Release|ARM.ActiveCfg = Release|ARM
+		{CBA1A5CC-88C4-420D-B29F-7106904DFF3B}.Release|ARM.Build.0 = Release|ARM
+		{CBA1A5CC-88C4-420D-B29F-7106904DFF3B}.Release|ARM.Deploy.0 = Release|ARM
+		{CBA1A5CC-88C4-420D-B29F-7106904DFF3B}.Release|ARM64.ActiveCfg = Release|ARM64
+		{CBA1A5CC-88C4-420D-B29F-7106904DFF3B}.Release|ARM64.Build.0 = Release|ARM64
+		{CBA1A5CC-88C4-420D-B29F-7106904DFF3B}.Release|ARM64.Deploy.0 = Release|ARM64
+		{CBA1A5CC-88C4-420D-B29F-7106904DFF3B}.Release|x64.ActiveCfg = Release|x64
+		{CBA1A5CC-88C4-420D-B29F-7106904DFF3B}.Release|x64.Build.0 = Release|x64
+		{CBA1A5CC-88C4-420D-B29F-7106904DFF3B}.Release|x64.Deploy.0 = Release|x64
+		{CBA1A5CC-88C4-420D-B29F-7106904DFF3B}.Release|x86.ActiveCfg = Release|x86
+		{CBA1A5CC-88C4-420D-B29F-7106904DFF3B}.Release|x86.Build.0 = Release|x86
+		{CBA1A5CC-88C4-420D-B29F-7106904DFF3B}.Release|x86.Deploy.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {241E8D13-406F-4487-88A3-37DA481928D3}
+	EndGlobalSection
+EndGlobal

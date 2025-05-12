@@ -1,0 +1,73 @@
+﻿<Page
+    x:Class="EyeApp.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:EyeApp"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Page.Resources>
+        <Style x:Key="GazePointerStyle" TargetType="Ellipse">
+            <Setter Property="RenderTransform">
+                <Setter.Value>
+                    <CompositeTransform/>
+                </Setter.Value>
+            </Setter>
+            <Setter Property="RenderTransformOrigin" Value="0.5,0.5"/>
+            <Setter Property="Opacity" Value="0.8"/>
+            <Setter Property="Visibility" Value="Visible"/>
+        </Style>
+    </Page.Resources>
+
+    <Grid>
+        <!-- Основной контейнер для клавиатуры -->
+        <Canvas x:ConnectionId='2' x:Name="MainCanvas"
+            HorizontalAlignment="Left" 
+            VerticalAlignment="Top"
+            Margin="10,50,0,0"
+            
+            Height="250"
+            Background="Transparent">
+            
+        </Canvas>
+
+        <!-- Большая кнопка паузы - Внутри Grid, после MainCanvas -->
+        <Rectangle x:ConnectionId='3' x:Name="BigKey"
+           Fill="#FF4081"
+           Stroke="Gray"
+           Tag="big"
+           Visibility="Collapsed"/>
+        
+        <!-- Информация о взгляде -->
+        <TextBlock x:ConnectionId='4' x:Name="gazeCoordinates"
+                   Text="Инициализация трекера..."
+                   FontSize="16"
+                   Foreground="DarkRed"
+                   HorizontalAlignment="Left"
+                   VerticalAlignment="Top"
+                   Margin="10"
+                   FontWeight="SemiBold"
+                   TextWrapping="Wrap"
+                   MaxWidth="300"/>
+
+        <!-- Статусная панель -->
+        <Border Background="#40000000"
+                VerticalAlignment="Bottom"
+                Margin="10"
+                CornerRadius="5"
+                Padding="10">
+            <StackPanel>
+                <TextBlock Text="Eye Piano v1.0"
+                           Foreground="White"
+                           FontSize="14"/>
+                <TextBlock x:ConnectionId='5' x:Name="connectionStatus"
+                           Text="Статус: Не подключено"
+                           Foreground="LightGray"
+                           FontSize="12"/>
+            </StackPanel>
+        </Border>
+    </Grid>
+</Page>
+
